@@ -20,6 +20,8 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 console.log('Happy Aloooooha Friday!');
 
 var day = 'Friday!';
+var color = 'blue';
+var month = 'November';
 
 /*
  * #1
