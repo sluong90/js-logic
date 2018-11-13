@@ -218,8 +218,14 @@ console.log(dirty30(16,17,10))
  * The function will return true if the number passed in is an even integer, otherwise it will return false.
  * Console.log your result.
 */ 
-
-
+function evenStevens(num){
+  if(num%2 === 0){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log(evenStevens(7))
 
 
 /*
@@ -297,6 +303,7 @@ console.log(moneyTrain(200))
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
+
 
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
