@@ -303,6 +303,18 @@ console.log(moneyTrain(200))
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
+var budget = 50;
+var doughnutPrice = 3;
+var doughnutBought = 0;
+function buyDoughnut(){
+  if(budget >= doughnutPrice){ //check if budget is enough for 1 doughnut
+    budget -= doughnutPrice; //budget = budget - doughnutPrice;
+    doughnutBought++;
+  }
+}
+buyDoughnut(); //bought another doughnut
+console.log('budget: ', budget,);
+console.log('doughnutBought: ', doughnutBought);
 
 
 /*Final Boss*/
@@ -338,7 +350,9 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
-
+for (var i = 1; i<=5; i++){
+  console.log('Player: ', i);
+}
 /* 
  * #16
  * Create a for loop that will iterate and console.log each item in the array below:
